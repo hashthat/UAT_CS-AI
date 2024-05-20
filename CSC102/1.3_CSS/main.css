@@ -1,12 +1,11 @@
 body {
-    background-image: url('https://raw.githubusercontent.com/hashthat/UAT_CS-AI/main/Materials/screenshots/Designer(1).jpeg'); /*using the path of my github URL */
+    background-image: url('https://raw.githubusercontent.com/hashthat/UAT_CS-AI/main/Materials/screenshots/Designer(12).jpeg'); /* Correct raw URL */
     background-size: cover; 
     background-repeat: no-repeat; 
     background-position: center;
     background-color: #008B8B; /* Fallback color */
     color: #333; /* Text color */
 }
-
 nav {
     height: 6000px;
     width: 200px;
@@ -28,3 +27,17 @@ header {
     text-align: center;
 }
 
+/* https://css-tricks.com/methods-contrasting-text-backgrounds/ */
+
+h1 {
+  background: inherit;
+  background-clip: text;
+  color: transparent;
+  filter: invert(1);
+}
+p {
+  background: inherit;
+  background-clip: text;
+  color: transparent;
+  filter: invert(1);
+}
