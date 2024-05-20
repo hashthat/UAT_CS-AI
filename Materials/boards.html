@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event-Driven Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        #output {
+            margin-top: 20px;
+            font-size: 20px;
+        }
+        .button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            margin-right: 10px;
+        }
+        .button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <h1>Event-Driven Example</h1>
+    <button id="changeColorButton" class="button">Change Text Color</button>
+    <button id="changeFontButton" class="button">Change Text Font</button>
+    <div id="output">This text will change color and font when you click the buttons.</div>
+
+    <script>
+        // Wait for the DOM content to be fully loaded
+        document.addEventListener('DOMContentLoaded', function() {
+            // Get references to the buttons and output div
+            const colorButton = document.getElementById('changeColorButton');
+            const fontButton = document.getElementById('changeFontButton');
+            const output = document.getElementById('output');
+
+            // Function to change the text color
+            function changeTextColor() {
+                // Generate a random color
+                const randomColor = '#' + Math.floor(Math.random()*16777215).toString(16);
+                // Set the text color of the output div
+                output.style.color = randomColor;
+            }
+
+            // Function to change the text font
+            function changeTextFont() {
+                // Array of font families
+                const fonts = ['Arial', 'Verdana', 'Courier New', 'Georgia', 'Times New Roman', 'Trebuchet MS', 'Comic Sans MS'];
+                // Select a random font from the array
+                const randomFont = fonts[Math.floor(Math.random() * fonts.length)];
+                // Set the font family of the output div
+                output.style.fontFamily = randomFont;
+            }
+
+            // Add event listeners to the buttons
+            colorButton.addEventListener('click', changeTextColor);
+            fontButton.addEventListener('click', changeTextFont);
+        });
+    </script>
+</body>
+</html>
+
