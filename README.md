@@ -1,6 +1,7 @@
 UAT_CS-AI
 This is a folder for UAT assignments
-
+--> https://css-tricks.com/methods-contrasting-text-backgrounds/ /* (CSS tips/tricks) */
+--> https://www.geeksforgeeks.org/web-development/ <-- /* and excellent resource! */
 I decided to use Multipass as a hosting terminal, and I still have a learning curve in Using it! But, I have developed a small website as a basic start to my coding journey with UAT. My hosting IP address is at;
 
 >>>>  http://10.129.215.172/  <<<<

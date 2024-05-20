@@ -1,0 +1,30 @@
+body {
+    background-image: url('https://raw.githubusercontent.com/hashthat/UAT_CS-AI/main/Materials/screenshots/Designer(1).jpeg'); /*using the path of my github URL */
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-color: #008B8B; /* Fallback color */
+    color: #333; /* Text color */
+}
+
+nav {
+    height: 6000px;
+    width: 200px;
+    float: left;
+    padding: 5px;
+    line-height: 30px;
+}
+
+footer {
+    text-align: center;
+    margin-right: 200px;
+}
+
+#memeImage {
+    margin-right: 200px;
+}
+
+header {
+    text-align: center;
+}
+
