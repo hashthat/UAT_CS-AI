@@ -1,6 +1,8 @@
 body {
-    background-image: url('https://raw.githubusercontent.com/hashthat/UAT_CS-AI/blob/main/CSC102/AI_Images/Designer(1).jpeg'); /* Correct raw URL */
-    background-size: cover; 
+    
+	background-image: url('https://raw.githubusercontent.com/hashthat/UAT_CS-AI/main/Materials/screenshots/Designer(1).jpeg'); /* image URL */
+    background-size: cover;
+	background-size: cover; 
     background-repeat: no-repeat; 
     background-position: center;
     background-attachment: fixed;
