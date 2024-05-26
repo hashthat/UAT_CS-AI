@@ -1,6 +1,8 @@
 This is a project that emphasized the importance of loops and creating a game with the basic feature of a button or a basic mathematical approach to creating an interactive website.
 Below is the assignment listed in the UAT Curriculum
 =======================================================
+https://www.geeksforgeeks.org/how-does-inline-javascript-work-with-html/
+=======================================================
 Objectives
 
     Understand the role of JavaScript Functions
